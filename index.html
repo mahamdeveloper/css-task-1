@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Cards</title>
+    <style>
+       body{
+        font-family: sans-serif;
+       }
+       .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+       }
+       .card{
+        width: 250px;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        text-align: center;
+       }
+       .icon{
+        width: 50px;
+        height: 50px;
+        margin-bottom: 10px;
+        border-radius: 50%;
+       }
+       .title{
+        font-size: 1.5em;
+        margin-bottom: 10px;
+       }
+       .text{
+        margin-bottom: 10px;
+       }
+       .button{
+        background-color: #000;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+       }
+       .card.instagram{
+        background-color: #ff0084;
+        color: #fff;
+       }
+       .card.instagram.button{
+        color: white;
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="twitter.png" alt="Twitter Logo" class="icon">
+            <h2 class="title">TWITTER</h2>
+            <p class="text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, dolor ipsam accusamus aliquid voluptates velit provident illo magni animi et eos laboriosam soluta vitae. Facilis ipsa veniam molestias dolores dolore!
+            </p>
+            <button class="button">READ MORE</button>
+        </div>
+        <div class="card instagram">
+            <img src="instagram-logo.png" alt="Instagram Logo" class="icon">
+            <h2 class="title">INSTAGRAM</h2>
+            <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ea enim a? Fugiat veritatis molestias blanditiis, dolores eligendi nihil error officiis, porro ipsam pariatur commodi, laborum tenetur explicabo dolorem! Corporis.
+            </p>
+            <button class="button">READ MORE</button>
+        </div>
+        <div class="card">
+            <img src="youtube-logo.png" alt="YouTube Logo" class="icon">
+            <h2 class="title">YOUTUBE</h2>
+            <P class="text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint laudantium adipisci eveniet quas esse consequatur eaque exercitationem officiis maxime cumque aliquam reiciendis porro commodi necessitatibus nemo error, ducimus aliquid nihil.
+            </P>
+            <button class="button">READ MORE</button>
+        </div>
+    </div>
+</body>
+</html>
